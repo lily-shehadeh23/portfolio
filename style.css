@@ -239,6 +239,7 @@ span{
 .btn-color-1,
 .btn-color-2 {
   border: rgb(53, 53, 53) 0.1rem solid;
+  color: black;
 }
 
 .btn-color-1:hover,
@@ -542,6 +543,7 @@ article .icon {
   font-size: 16px;
   font-weight: 600;
   background-color: #ececec;   
+  color: black;
 }
 
 .bt:hover {
@@ -640,6 +642,7 @@ article .icon {
 .bb {
   width: 160px;
   border: none;
+  color: black;
   background-color: transparent;
   text-align: center;
   cursor: pointer;

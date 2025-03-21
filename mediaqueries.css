@@ -71,6 +71,14 @@
       padding: 8px 65px;
       font-size: 14px;
     }
+    .tech-image {
+      width: 90px;  
+      height:90px;
+      margin-bottom: 8px;
+    }
+    .bb {
+      font-size: 15px;
+    }
   }
   
   @media screen and (max-width: 750px) {
@@ -119,12 +127,12 @@
       gap: 0.5rem;
       text-align: center;
     }
+  
     .section__pic-container,.section__pic-container1 {
       width: auto;
-      height: 46vw;
+      height: 305px;
+      margin: 0 auto 2rem;
       justify-content: center;
-      border: none;
-    
     }
     .section__text__p2,.or-text {
       font-size: 1.25rem;
@@ -136,7 +144,7 @@
       min-width: unset; 
       width: 100%;
       text-align: center;
-      font-size: 2rem;
+      font-size: 2.4rem;
     }
     .text-container {
       text-align: justify;
@@ -179,5 +187,50 @@
     .menu-links a {
       font-size: 1.4rem; /* Slightly smaller text */
     }
+    .tech-image {
+      width: 90px;  
+      height:90px;
+      margin-bottom: 8px;
+    }
+    .bb {
+      font-size: 15px;
+    }
   }
   
+  @media screen and (max-width: 450px) {
+    .title {
+      min-width: unset; 
+      font-size: 2rem; 
+      height: auto;
+      text-align: center;
+    }
+  
+    .btn-container {
+      margin-top: 20px; /* Move buttons further down */
+    }
+  
+    .section__text {
+      padding-top: 15px; /* Add extra spacing */
+    }
+    .buttons {
+      gap: 5px;        
+    }
+    .bt {
+      padding: 3px 30px;
+      font-size: 14px;
+    }
+    .section__pic-container,.section__pic-container1 {
+      width: 300px;
+      height: 305px;
+      margin: 0 auto 2rem;
+      justify-content: center;
+    }
+    .tech-image {
+      width: 80px;  
+      height:80px;
+      margin-bottom: 8px;
+    }
+    .bb {
+      font-size: 14px;
+    }
+  }  
