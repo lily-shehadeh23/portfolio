@@ -1,0 +1,183 @@
+@media screen and (max-width: 1400px) {
+    #profile {
+      height: 83vh;
+      margin-bottom: 6rem;
+    }
+    .about-containers {
+      flex-wrap: wrap;
+    }
+    #contact,
+    #projects {
+      height: fit-content;
+    }
+    .bt {
+      padding: 12px 100px; /* Slightly smaller */
+      font-size: 16px;
+    }
+  }
+  
+  @media screen and (max-width: 1200px) {
+    #desktop-nav {
+      display: none;
+    }
+    #hamburger-nav {
+      display: flex;
+    }
+    #experience,
+    .experience-details-container {
+      margin-top: 2rem;
+    }
+    #profile,
+    .section-container {
+      display: block;
+    }
+    .arrow {
+      display: none;
+    }
+    section,
+    .section-container {
+      height: fit-content;
+    }
+    section {
+      margin: 0 5%;
+    }
+    .section__pic-container,.section__pic-container1 {
+      width: 300px;
+      height: 305px;
+      margin: 0 auto 2rem;
+      justify-content: center;
+    }
+    .about-containers {
+      margin-top: 0;
+    }
+    .buttons {
+      gap: 15px;        
+    }
+    .bt {
+      padding: 10px 80px; 
+      font-size: 15px;
+    }
+    .idea {
+      width: 35px;
+      height: 35px;
+    }
+    .menu-links {
+      width: 220px;  /* Slightly smaller menu */
+    }
+  }
+
+  @media screen and (max-width: 900px) {
+    .bt {
+      padding: 8px 65px;
+      font-size: 14px;
+    }
+  }
+  
+  @media screen and (max-width: 750px) {
+    .bt {
+      padding: 6px 50px; 
+      font-size: 13px;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    #contact,
+    footer {
+      height: 40vh;
+    }
+    #profile {
+      height: 83vh;
+      margin-bottom: 0;
+    }
+    article {
+      font-size: 1rem;
+    }
+    footer nav {
+      height: fit-content;
+      margin-bottom: 2rem;
+    }
+    .about-containers,
+    .contact-info-upper-container,
+    .btn-container {
+      flex-wrap: wrap;
+    }
+    .contact-info-container {
+      margin: 0;
+    }
+    .contact-info-container p,
+    .nav-links li a {
+      font-size: 1rem;
+    }
+    .experience-sub-title {
+      font-size: 1.25rem;
+    }
+    .logo {
+      font-size: 2rem;
+    }
+    .nav-links {
+      flex-direction: column;
+      gap: 0.5rem;
+      text-align: center;
+    }
+    .section__pic-container,.section__pic-container1 {
+      width: auto;
+      height: 46vw;
+      justify-content: center;
+      border: none;
+    
+    }
+    .section__text__p2,.or-text {
+      font-size: 1.25rem;
+    }
+    .titles {
+      font-size: 2rem;
+    }
+    .title {
+      min-width: unset; 
+      width: 100%;
+      text-align: center;
+      font-size: 2rem;
+    }
+    .text-container {
+      text-align: justify;
+    }
+    .contact-form {
+      max-width: 100%;
+      padding: 0 10px; 
+    }
+    .contact-inputs {
+      width: 100%;
+      height: 45px; 
+      font-size: 0.9rem; 
+    }
+    .contact-inputst {
+      width: 96%;
+      height: 200px; 
+    }
+    .submit-btn {
+      width: 100%;
+      padding: 12px;
+      font-size: 1rem;
+    }
+    .buttons {
+      gap: 8px;        
+    }
+    .bt {
+      padding: 5px 40px;
+      font-size: 14px;
+    }
+  
+    .idea {
+      width: 30px;
+      height: 30px;
+    }
+    .menu-links {
+      width: 200px;  /* Smaller menu */
+      padding-top: 60px; /* Adjust spacing */
+    }
+  
+    .menu-links a {
+      font-size: 1.4rem; /* Slightly smaller text */
+    }
+  }
+  
